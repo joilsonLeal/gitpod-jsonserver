@@ -1,0 +1,5 @@
+tasks:
+  - init: json-server db.json
+ports:
+  - port: 3000
+    onOpen: open-preview
